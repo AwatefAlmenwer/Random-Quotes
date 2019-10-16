@@ -1,0 +1,36 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+}
+.quote-text {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+#quote {
+    font-size: 45px;
+    color:rgb(204, 204, 204);
+}
+p {
+    color:#810202;
+    font-size: 30px;
+}
+#btn {
+    padding: 10px 20px;
+    background-color: rgb(204, 204, 204);
+    font-size: 35px;
+    color: rgb(204, 204, 204);
+    background-color: #b33636;
+    border: none;
+    border-radius: 40px;
+}
+
